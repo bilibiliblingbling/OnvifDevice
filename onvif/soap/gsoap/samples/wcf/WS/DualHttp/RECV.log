@@ -1,0 +1,436 @@
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse"
+Content-Length: 1310
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:RelatesTo>urn:uuid:d2668532-a6f8-4a02-8f8c-204bcf699f10</wsa5:RelatesTo>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse</wsa5:Action>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<wsrm:CreateSequenceResponse>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:Expires>PT0H0M30S</wsrm:Expires>
+			<wsrm:IncompleteSequenceBehavior>DiscardFollowingFirstGap</wsrm:IncompleteSequenceBehavior>
+			<wsrm:Accept>
+				<wsrm:AcksTo>
+					<wsa5:Address>http://localhost:8000</wsa5:Address>
+				</wsrm:AcksTo>
+			</wsrm:Accept>
+		</wsrm:CreateSequenceResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+Content-Length: 1507
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:d162c6ec-5f8a-4cfa-b174-baaae9795653</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+			<wsrm:MessageNumber>1</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="1"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Result>
+			<mssadh:result>3.1400000000000001</mssadh:result>
+		</mssadh:Result>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+Content-Length: 1507
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:699548a1-55c4-41d4-ac19-21dec7db1bfc</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+			<wsrm:MessageNumber>2</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="2"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Result>
+			<mssadh:result>1.7300000000000002</mssadh:result>
+		</mssadh:Result>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation"
+Content-Length: 1511
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:b74138a5-af37-4178-970e-144ffefae2e6</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+			<wsrm:MessageNumber>3</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="3"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Equation>
+			<mssadh:eqn>0 + 3.14 - 1.41 = 1.73</mssadh:eqn>
+		</mssadh:Equation>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage"
+Content-Length: 1321
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:27b6cad1-967e-4097-93fa-e5f05b3ebd79</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+			<wsrm:MessageNumber>4</wsrm:MessageNumber>
+			<wsrm:LastMessage></wsrm:LastMessage>
+		</wsrm:Sequence>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="4"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body></SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence"
+Content-Length: 1306
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:RelatesTo>urn:uuid:ab9d9521-beb1-4b5f-b402-0e20f3374384</wsa5:RelatesTo>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence</wsa5:Action>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000001</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="4"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<wsrm:TerminateSequence>
+			<wsrm:Identifier>urn:uuid:fbe1f63a-1fa5-43f0-9f0f-c2013e299e7b</wsrm:Identifier>
+			<wsrm:LastMsgNumber>4</wsrm:LastMsgNumber>
+		</wsrm:TerminateSequence>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse"
+Content-Length: 1310
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:RelatesTo>urn:uuid:1d6e4a7e-f130-4d9a-b003-c3ef5ed61073</wsa5:RelatesTo>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/CreateSequenceResponse</wsa5:Action>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<wsrm:CreateSequenceResponse>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:Expires>PT0H0M30S</wsrm:Expires>
+			<wsrm:IncompleteSequenceBehavior>DiscardFollowingFirstGap</wsrm:IncompleteSequenceBehavior>
+			<wsrm:Accept>
+				<wsrm:AcksTo>
+					<wsa5:Address>http://localhost:8000</wsa5:Address>
+				</wsrm:AcksTo>
+			</wsrm:Accept>
+		</wsrm:CreateSequenceResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+Content-Length: 1507
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:1aea2db9-72b5-445e-9d2d-d92ffb0c7473</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+			<wsrm:MessageNumber>1</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="1"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Result>
+			<mssadh:result>3.1400000000000001</mssadh:result>
+		</mssadh:Result>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+Content-Length: 1507
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:8f288a70-88e5-421c-936d-7783b73c1208</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Result</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+			<wsrm:MessageNumber>2</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="2"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Result>
+			<mssadh:result>1.7300000000000002</mssadh:result>
+		</mssadh:Result>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation"
+Content-Length: 1511
+Connection: close
+SOAPAction: "http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:0313d256-0100-41ab-9ddf-1d373ccadabc</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://Microsoft.Samples.DualHttp/ICalculatorDuplex/Equation</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+			<wsrm:MessageNumber>3</wsrm:MessageNumber>
+		</wsrm:Sequence>
+		<wsrm:AckRequested>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+		</wsrm:AckRequested>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="3"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<mssadh:Equation>
+			<mssadh:eqn>0 + 3.14 - 1.41 = 1.73</mssadh:eqn>
+		</mssadh:Equation>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage"
+Content-Length: 1321
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:MessageID>urn:uuid:1ac5db2b-844c-48d6-a054-2ae1003f36eb</wsa5:MessageID>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/LastMessage</wsa5:Action>
+		<wsrm:Sequence>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+			<wsrm:MessageNumber>4</wsrm:MessageNumber>
+			<wsrm:LastMessage></wsrm:LastMessage>
+		</wsrm:Sequence>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="4"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body></SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+HTTP/1.1 202 Accepted
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 0
+Connection: close
+
+POST / HTTP/1.1
+Host: localhost:8001
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence"
+Content-Length: 1306
+Connection: close
+SOAPAction: "http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tempuri="http://tempuri.org/" xmlns:mssadh="http://Microsoft.Samples.DualHttp" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm">
+	<SOAP-ENV:Header>
+		<wsa5:RelatesTo>urn:uuid:36dd6494-eba6-4622-9a6b-0d2f0a94f404</wsa5:RelatesTo>
+		<wsa5:To SOAP-ENV:mustUnderstand="true">http://localhost:8001</wsa5:To>
+		<wsa5:Action SOAP-ENV:mustUnderstand="true">http://schemas.xmlsoap.org/ws/2005/02/rm/TerminateSequence</wsa5:Action>
+		<wsrm:SequenceAcknowledgement>
+			<wsrm:Identifier>urn:uuid:7a3fd68f-b42a-49bb-9c95-1a8500000002</wsrm:Identifier>
+			<wsrm:AcknowledgementRange Lower="1" Upper="4"></wsrm:AcknowledgementRange>
+		</wsrm:SequenceAcknowledgement>
+	</SOAP-ENV:Header>
+	<SOAP-ENV:Body>
+		<wsrm:TerminateSequence>
+			<wsrm:Identifier>urn:uuid:c3a29cc2-fed4-4a94-a291-82a74d34308d</wsrm:Identifier>
+			<wsrm:LastMsgNumber>4</wsrm:LastMsgNumber>
+		</wsrm:TerminateSequence>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

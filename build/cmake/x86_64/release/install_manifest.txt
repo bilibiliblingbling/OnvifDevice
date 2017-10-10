@@ -1,0 +1,3 @@
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/release/_CPack_Packages/Linux/TGZ/onvifdeviceplugin-2017-05-23-b3b5546-dirty-release/lib/plugins/onvifdevice/libonvifdeviceplugin-d.so.0.9.0
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/release/_CPack_Packages/Linux/TGZ/onvifdeviceplugin-2017-05-23-b3b5546-dirty-release/lib/plugins/onvifdevice/libonvifdeviceplugin-d.so.0.9
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/release/_CPack_Packages/Linux/TGZ/onvifdeviceplugin-2017-05-23-b3b5546-dirty-release/lib/plugins/onvifdevice/libonvifdeviceplugin-d.so

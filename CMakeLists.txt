@@ -1,0 +1,61 @@
+cmake_minimum_required(VERSION 2.6.2)
+
+project(onvifdeviceplugin)
+
+set(HDR_LIST
+  OnvifConnector.h
+  OnvifDeviceClass.h
+  OnvifDeviceConfigure.h
+  OnvifDeviceControl.h
+  OnvifDeviceControlImpl.h
+  OnvifDeviceHelper.h
+  OnvifDiscoverer.h
+  OnvifDiscovererProxy.h
+  OnvifStream.h
+  rtsp/OnvifRtspContext.h
+  rtsp/OnvifRtspClient.h
+  onvif/OnvifDef.h
+  onvif/OnvifDevice.h
+  onvif/OnvifDiscovery.h
+  onvif/OnvifBasic.h
+  onvif/OnvifMedia.h
+  onvif/OnvifPTZ.h
+  onvif/OnvifImage.h
+  onvif/soap/soapH.h
+  onvif/soap/soapStub.h
+  onvif/soap/namespaces.h
+  onvif/soap/gsoap/stdsoap2.h
+  onvif/soap/gsoap/plugin/wsseapi.h
+  onvif/soap/gsoap/plugin/smdevp.h
+  onvif/soap/gsoap/plugin/mecevp.h
+  onvif/soap/gsoap/plugin/threads.h)
+
+set(SRC_LIST
+  OnvifConnector.cpp
+  OnvifDeviceClass.cpp
+  OnvifDeviceControl.cpp
+  OnvifDeviceControlImpl.cpp
+  OnvifDevicePlugin.cpp
+  OnvifDiscoverer.cpp
+  OnvifDiscovererProxy.cpp
+  OnvifStream.cpp
+  rtsp/OnvifRtspContext.cpp
+  rtsp/OnvifRtspClient.cpp
+  onvif/OnvifDevice.cpp
+  onvif/OnvifDiscovery.cpp
+  onvif/OnvifBasic.cpp
+  onvif/OnvifMedia.cpp
+  onvif/OnvifPTZ.cpp
+  onvif/OnvifImage.cpp
+  onvif/soap/soapC.c
+  onvif/soap/soapClient.c
+  onvif/soap/gsoap/stdsoap2.c
+  onvif/soap/gsoap/dom.c
+  onvif/soap/gsoap/custom/duration.c
+  onvif/soap/gsoap/plugin/wsaapi.c
+  onvif/soap/gsoap/plugin/wsseapi.c
+  onvif/soap/gsoap/plugin/smdevp.c
+  onvif/soap/gsoap/plugin/mecevp.c
+  onvif/soap/gsoap/plugin/threads.c)
+
+include(cmake/onvif_defines.cmake)

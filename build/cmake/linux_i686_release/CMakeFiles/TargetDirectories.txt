@@ -1,0 +1,7 @@
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/install/strip.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/edit_cache.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/onvifdeviceplugin.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/rebuild_cache.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/list_install_components.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/install/local.dir
+/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/install.dir

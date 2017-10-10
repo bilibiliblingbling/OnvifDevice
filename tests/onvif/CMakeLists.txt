@@ -1,0 +1,1 @@
+swift_add_test(onvif_client onvif_multicast)

@@ -1,0 +1,868 @@
+The system is: Linux - 3.10.0-327.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -m32;-I/home/wjl/bqvision/clearvision/linux_i686/release/include
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -m32;-I/home/wjl/bqvision/clearvision/linux_i686/release/include
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2682469419/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2682469419.dir/build.make CMakeFiles/cmTryCompileExec2682469419.dir/build
+gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2682469419.dir/testCCompiler.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec2682469419.dir/testCCompiler.c.o   -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2682469419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2682469419.dir/link.txt --verbose=1
+/usr/bin/cc  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include     CMakeFiles/cmTryCompileExec2682469419.dir/testCCompiler.c.o  -o cmTryCompileExec2682469419 -rdynamic 
+gmake[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3393505995/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3393505995.dir/build.make CMakeFiles/cmTryCompileExec3393505995.dir/build
+gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3393505995
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3393505995.dir/link.txt --verbose=1
+/usr/bin/cc  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include   -v CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3393505995 -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+目标：x86_64-redhat-linux
+配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+线程模型：posix
+gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-v' '-o' 'cmTryCompileExec3393505995' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3393505995 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o
+gmake[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3393505995/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3393505995.dir/build.make CMakeFiles/cmTryCompileExec3393505995.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3393505995]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3393505995.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include   -v CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3393505995 -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [目标：x86_64-redhat-linux]
+  ignore line: [配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-v' '-o' 'cmTryCompileExec3393505995' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3393505995 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3393505995] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3393505995.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32;/usr/lib;/lib;/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1878312190/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1878312190.dir/build.make CMakeFiles/cmTryCompileExec1878312190.dir/build
+gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1878312190.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec1878312190.dir/testCXXCompiler.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1878312190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1878312190.dir/link.txt --verbose=1
+/usr/bin/c++   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include     CMakeFiles/cmTryCompileExec1878312190.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1878312190 -rdynamic 
+gmake[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1028688700/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1028688700.dir/build.make CMakeFiles/cmTryCompileExec1028688700.dir/build
+gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1028688700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1028688700.dir/link.txt --verbose=1
+/usr/bin/c++   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include   -v CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1028688700 -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+目标：x86_64-redhat-linux
+配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+线程模型：posix
+gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-v' '-o' 'cmTryCompileExec1028688700' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1028688700 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o
+gmake[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec1028688700/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1028688700.dir/build.make CMakeFiles/cmTryCompileExec1028688700.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp”]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include    -o CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1028688700]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1028688700.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include   -v CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1028688700 -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [目标：x86_64-redhat-linux]
+  ignore line: [配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-11) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-v' '-o' 'cmTryCompileExec1028688700' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec1028688700 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1028688700] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec1028688700.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/32;/usr/lib;/lib;/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  implicit fwks: []
+
+
+The system is: Linux - 4.11.8-300.fc26.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -m32;-I/home/wjl/bqvision/clearvision/linux_i686/release/include;-DCOMMIT_VERSION="\"0a8382d-2017-09-05\""
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/3.9.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -m32;-I/home/wjl/bqvision/clearvision/linux_i686/release/include;-DCOMMIT_VERSION="\"0a8382d-2017-09-05\""
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/3.9.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cdbe0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cdbe0.dir/build.make CMakeFiles/cmTC_cdbe0.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cdbe0.dir/testCCompiler.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_cdbe0.dir/testCCompiler.c.o   -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cdbe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdbe0.dir/link.txt --verbose=1
+/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_cdbe0.dir/testCCompiler.c.o  -o cmTC_cdbe0 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_df09b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_df09b.dir/build.make CMakeFiles/cmTC_df09b.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_df09b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df09b.dir/link.txt --verbose=1
+/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -v -rdynamic CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o  -o cmTC_df09b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 7.1.1 20170622 (Red Hat 7.1.1-3) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/32/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_df09b' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6QGH3T.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_df09b /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7/32 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_df09b' '-mtune=generic' '-march=i686'
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_df09b/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_df09b.dir/build.make CMakeFiles/cmTC_df09b.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_df09b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df09b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -v -rdynamic CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o  -o cmTC_df09b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.1 20170622 (Red Hat 7.1.1-3) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/32/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_df09b' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6QGH3T.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_df09b /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7/32 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6QGH3T.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_df09b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/32] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/32]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
+    arg [CMakeFiles/cmTC_df09b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/32] ==> [/usr/lib/gcc/x86_64-redhat-linux/7/32]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7] ==> [/usr/lib/gcc/x86_64-redhat-linux/7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/7/32;/usr/lib;/lib;/usr/lib/gcc/x86_64-redhat-linux/7]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eb925/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eb925.dir/build.make CMakeFiles/cmTC_eb925.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb925.dir/feature_tests.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c11 -o CMakeFiles/cmTC_eb925.dir/feature_tests.c.o   -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eb925
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb925.dir/link.txt --verbose=1
+/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_eb925.dir/feature_tests.c.o  -o cmTC_eb925 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_52736/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_52736.dir/build.make CMakeFiles/cmTC_52736.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52736.dir/feature_tests.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c99 -o CMakeFiles/cmTC_52736.dir/feature_tests.c.o   -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_52736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52736.dir/link.txt --verbose=1
+/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_52736.dir/feature_tests.c.o  -o cmTC_52736 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c0104/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c0104.dir/build.make CMakeFiles/cmTC_c0104.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0104.dir/feature_tests.c.o
+/usr/bin/cc   -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c90 -o CMakeFiles/cmTC_c0104.dir/feature_tests.c.o   -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c0104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0104.dir/link.txt --verbose=1
+/usr/bin/cc -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_c0104.dir/feature_tests.c.o  -o cmTC_c0104 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_48ed9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48ed9.dir/build.make CMakeFiles/cmTC_48ed9.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48ed9.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_48ed9.dir/testCXXCompiler.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_48ed9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ed9.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_48ed9.dir/testCXXCompiler.cxx.o  -o cmTC_48ed9 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d1f1f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d1f1f.dir/build.make CMakeFiles/cmTC_d1f1f.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d1f1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f1f.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -v -rdynamic CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1f1f 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-redhat-linux
+Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 7.1.1 20170622 (Red Hat 7.1.1-3) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/32/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_d1f1f' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cceGh6io.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_d1f1f /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7/32 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_d1f1f' '-shared-libgcc' '-mtune=generic' '-march=i686'
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d1f1f/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d1f1f.dir/build.make CMakeFiles/cmTC_d1f1f.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -o CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d1f1f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f1f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -v -rdynamic CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d1f1f ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,objc,obj-c++,fortran,ada,go,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --enable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.1.1 20170622 (Red Hat 7.1.1-3) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/7/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/7/32/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/7/:/usr/lib/gcc/x86_64-redhat-linux/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-m32' '-I' '/home/wjl/bqvision/clearvision/linux_i686/release/include' '-D' 'COMMIT_VERSION="0a8382d-2017-09-05"' '-v' '-rdynamic' '-o' 'cmTC_d1f1f' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/7/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cceGh6io.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_d1f1f /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/7/32 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/7 -L/usr/lib/gcc/x86_64-redhat-linux/7/../../.. CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceGh6io.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d1f1f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/32/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/32] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/32]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..]
+    arg [CMakeFiles/cmTC_d1f1f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/32/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/32] ==> [/usr/lib/gcc/x86_64-redhat-linux/7/32]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7] ==> [/usr/lib/gcc/x86_64-redhat-linux/7]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/7/32;/usr/lib;/lib;/usr/lib/gcc/x86_64-redhat-linux/7]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_75c8f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_75c8f.dir/build.make CMakeFiles/cmTC_75c8f.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_75c8f.dir/feature_tests.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c++1z -o CMakeFiles/cmTC_75c8f.dir/feature_tests.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_75c8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75c8f.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_75c8f.dir/feature_tests.cxx.o  -o cmTC_75c8f 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c62ac/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c62ac.dir/build.make CMakeFiles/cmTC_c62ac.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c62ac.dir/feature_tests.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c++14 -o CMakeFiles/cmTC_c62ac.dir/feature_tests.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c62ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c62ac.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_c62ac.dir/feature_tests.cxx.o  -o cmTC_c62ac 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ccdbf/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ccdbf.dir/build.make CMakeFiles/cmTC_ccdbf.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccdbf.dir/feature_tests.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c++11 -o CMakeFiles/cmTC_ccdbf.dir/feature_tests.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ccdbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccdbf.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_ccdbf.dir/feature_tests.cxx.o  -o cmTC_ccdbf 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4480c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4480c.dir/build.make CMakeFiles/cmTC_4480c.dir/build
+gmake[1]: Entering directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4480c.dir/feature_tests.cxx.o
+/usr/bin/c++    -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""    -std=c++98 -o CMakeFiles/cmTC_4480c.dir/feature_tests.cxx.o -c /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4480c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4480c.dir/link.txt --verbose=1
+/usr/bin/c++  -m32 -I/home/wjl/bqvision/clearvision/linux_i686/release/include -DCOMMIT_VERSION="\"0a8382d-2017-09-05\""     -rdynamic CMakeFiles/cmTC_4480c.dir/feature_tests.cxx.o  -o cmTC_4480c 
+gmake[1]: Leaving directory '/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/linux_i686_release/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

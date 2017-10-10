@@ -1,0 +1,271 @@
+脚本启动于 Wed 10 May 2017 05:34:29 PM CST
+]0;wjl@localhost:~/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice]7;file://localhost/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice[?1034h[wjl@localhost OnvifDevice]$ shk-build-cmake.sh -s . -d -i -r -j 1[1P[1P[1P
+++ basename /home/wjl/work/cv5/tools/shk-kit/shk-build-cmake.sh
++ g_basename=shk-build-cmake.sh
++++ readlink -e /home/wjl/work/cv5/tools/shk-kit/shk-build-cmake.sh
+++ dirname /home/wjl/work/cv5/tools/shk-kit/shk-build-cmake.sh
++ g_basedir=/home/wjl/work/cv5/tools/shk-kit
++ . /home/wjl/work/cv5/tools/shk-kit/shk-build-common.sh
+++ . /home/wjl/work/cv5/tools/shk-kit/shk-common.sh
++++ g_verbose=no
+++ g_build_type=release
++++ grep -c '^process' /proc/cpuinfo
+++ g_jobs=8
+++ g_bqvision_prefix=/opt/bqvision
+++ g_prefix=
+++ g_rebuild=no
++++ arch
+++ g_host=x86_64
+++ g_target=x86_64
+++ g_arch_flag=
+++ g_build_dir=
+++ g_local_dist=no
+++ g_install=no
+++ g_release_candidate_dir=
+++ g_project_name=
+++ g_package_name=
+++ g_package_filename=
+++ g_package_last_name=
+++ g_package_suffix=tar.gz
+++ g_lib_suffix=
+++ '[' '!' -f /etc/redhat-release ']'
+++ g_lib_suffix64=64
+++ g_werror=
+++ g_wunused=-Wno-unused
+++ g_opt_flags=(-D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4)
+++ g_ld_flags=(-Wl,-z,relro -Wl,--no-undefined -Wl,--unresolved-symbols=ignore-in-shared-libs)
++ . /home/wjl/work/cv5/tools/shk-kit/shk-git-func.sh
+++ . /home/wjl/work/cv5/tools/shk-kit/shk-common.sh
++++ g_verbose=no
++ g_project_type=cmake
+++ realpath .
+++ command readlink -e .
+++ readlink -e .
++ g_cmake_proj_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
++ g_cmake_package_name=
++ g_cmake_package_filename=
++ g_cmake_package_last_name=
++ setup_usage_build_cmake
++ g_usage_summary=("[-s <dir>]")
++ g_usage_details=("-s                directory that contains \`CMakeLists.txt', default: \`.'.")
++ setup_usage_build_common
++ g_usage_summary=("${g_usage_summary[@]}" "[-d|--debug]" "[-i|--install]" "[-j|--jobs <jobs>]" "[-l|--local-dist]" "[-p|--prefix <prefix>]" "[-r|--rebuild]" "[-t|--target <target>]")
++ g_usage_details=("${g_usage_details[@]}" "-d, --debug       build type: debug, default: \`${g_build_type}'." "-i, --install     install, default: \`${g_install}'." "-j, --jobs        number of jobs that can be used by make, default: \`${g_jobs}'." "-l, --local-dist  local dist package, default: \`${g_local_dist}'." "-p, --prefix      prefix." "-r, --rebuild     rebuild." "-t, --target      i686, x86_64, default: \`${g_target}'.")
++ setup_usage_common
++ g_usage_summary=("${g_usage_summary[@]}" "[-v|--verbose]")
++ g_usage_details=("${g_usage_details[@]}" "-v, --verbose     verbose mode, useful for debugging, default: \`${g_verbose}'.")
++ handle_options_build_cmake -s . -d -i -j 1
++ unhandled_options=()
++ local unhandled_options
++ '[' 6 -gt 0 ']'
++ case "$1" in
++ '[' -d . ']'
+++ realpath .
+++ command readlink -e .
+++ readlink -e .
++ g_cmake_proj_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
++ shift
++ shift
++ '[' 4 -gt 0 ']'
++ case "$1" in
++ unhandled_options=(${unhandled_options[@]} "$1")
++ shift
++ '[' 3 -gt 0 ']'
++ case "$1" in
++ unhandled_options=(${unhandled_options[@]} "$1")
++ shift
++ '[' 2 -gt 0 ']'
++ case "$1" in
++ unhandled_options=(${unhandled_options[@]} "$1")
++ shift
++ '[' 1 -gt 0 ']'
++ case "$1" in
++ unhandled_options=(${unhandled_options[@]} "$1")
++ shift
++ '[' 0 -gt 0 ']'
++ handle_options_build_common -d -i -j 1
++ unhandled_options=()
++ local unhandled_options
++ '[' 4 -gt 0 ']'
++ case "$1" in
++ g_build_type=debug
++ shift
++ '[' 3 -gt 0 ']'
++ case "$1" in
++ g_install=yes
++ shift
++ '[' 2 -gt 0 ']'
++ case "$1" in
++ g_jobs=1
++ shift
++ shift
++ '[' 0 -gt 0 ']'
++ handle_options_common
++ '[' 0 -gt 0 ']'
++ case "${g_target}" in
++ g_lib_suffix=64
++ g_optflags=(${g_optflags[@]} -m64 -mtune=generic)
++ '[' -z '' ']'
++ '[' -n '' ']'
++ '[' -n /home/wjl/bqvision/clearvision ']'
++ g_prefix=/home/wjl/bqvision/clearvision/linux_x86_64/debug
++ g_lib_suffix64=
++ '[' -n '' ']'
++ '[' -n '' ']'
++ g_release_candidate_dir=/home/wjl/rc_packages/x86_64
++ g_package_last_name=x86_64-debug
++ '[' -f /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/CMakeLists.txt ']'
++ verbose
++ '[' xno = xyes ']'
++ fill_project_info
+++ realpath /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ command readlink -e /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ readlink -e /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
++ g_cmake_proj_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ git_repo_root /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ local fd=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice d=
+++ '[' -f /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice ']'
+++ '[' -d /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice ']'
+++ d=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ command pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ git rev-parse --show-toplevel
+++ popd
+++ command popd
+++ popd
++ g_project_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ cmake_project_name
+++ grep -i -o --perl-regexp '(?<=^project\().*(?=\)$)' /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/CMakeLists.txt
++ g_project_name=onvifdeviceplugin
+++ date
+++ command date +%Y-%m-%d
+++ date +%Y-%m-%d
+++ git_repo_prefer_id /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ local repo_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ command pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+++ git describe --dirty --always --abbrev=7
+++ popd
+++ command popd
+++ popd
++ g_cmake_package_last_name=2017-05-10-149f3ec-dirty-debug
++ g_cmake_package_name=onvifdeviceplugin-2017-05-10-149f3ec-dirty-debug
++ g_cmake_package_filename=onvifdeviceplugin-2017-05-10-149f3ec-dirty-debug.tar.gz
++ g_package_name=onvifdeviceplugin-x86_64-debug
++ g_package_filename=onvifdeviceplugin-x86_64-debug.tar.gz
++ prepare_build_environment
++ g_build_dir=/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ '[' xno = xyes ']'
++ mkdir -p /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ build
++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ command pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
+++ which cmake
++ local __cmake=/usr/bin/cmake
++ CFLAGS='-D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 '
++ CXXFLAGS='-D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 '
++ LDFLAGS='-Wl,-z,relro -Wl,--no-undefined -Wl,--unresolved-symbols=ignore-in-shared-libs'
++ export CFLAGS CXXFLAGS LDFLAGS
++ cmake_defines=(-DCMAKE_BUILD_TYPE:STRING="${g_build_type}" -DCMAKE_C_FLAGS:STRING="${CFLAGS}" -DCMAKE_C_FLAGS_RELEASE:STRING="-DNDEBUG" -DCMAKE_CXX_FLAGS:STRING="${CXXFLAGS}" -DCMAKE_CXX_FLAGS_RELEASE:STRING="-DNDEBUG" -DCMAKE_SHARED_LINKER_FLAGS:STRING="${LDFLAGS}" -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH="${g_prefix}" -DINCLUDE_INSTALL_DIR:PATH="${g_prefix}/include" -DLIB_INSTALL_DIR:PATH="${g_prefix}/lib${g_lib_suffix}" -DSYSCONF_INSTALL_DIR:PATH="${g_prefix}/etc" -DSHARE_INSTALL_PREFIX:PATH="${g_prefix}/share" -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DPACKAGER_CPACK:BOOL=ON -DCPACK_GENERATOR:STRING="TGZ" -DCPACK_PACKAGE_FILE_NAME="${g_cmake_package_name}" -DBQVISION_PREFIX:PATH=${g_bqvision_prefix} -DLIB_SUFFIX=${g_lib_suffix})
++ local cmake_defines
++ /usr/bin/cmake -DCMAKE_BUILD_TYPE:STRING=debug '-DCMAKE_C_FLAGS:STRING=-D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 ' -DCMAKE_C_FLAGS_RELEASE:STRING=-DNDEBUG '-DCMAKE_CXX_FLAGS:STRING=-D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 ' -DCMAKE_CXX_FLAGS_RELEASE:STRING=-DNDEBUG '-DCMAKE_SHARED_LINKER_FLAGS:STRING=-Wl,-z,relro -Wl,--no-undefined -Wl,--unresolved-symbols=ignore-in-shared-libs' -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=ON -DCMAKE_INSTALL_PREFIX:PATH=/home/wjl/bqvision/clearvision/linux_x86_64/debug -DINCLUDE_INSTALL_DIR:PATH=/home/wjl/bqvision/clearvision/linux_x86_64/debug/include -DLIB_INSTALL_DIR:PATH=/home/wjl/bqvision/clearvision/linux_x86_64/debug/lib64 -DSYSCONF_INSTALL_DIR:PATH=/home/wjl/bqvision/clearvision/linux_x86_64/debug/etc -DSHARE_INSTALL_PREFIX:PATH=/home/wjl/bqvision/clearvision/linux_x86_64/debug/share -DBUILD_SHARED_LIBS:BOOL=ON -DCMAKE_VERBOSE_MAKEFILE:BOOL=ON -DPACKAGER_CPACK:BOOL=ON -DCPACK_GENERATOR:STRING=TGZ -DCPACK_PACKAGE_FILE_NAME=onvifdeviceplugin-2017-05-10-149f3ec-dirty-debug -DBQVISION_PREFIX:PATH=/opt/bqvision -DLIB_SUFFIX=64 /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ make -j 1
+/usr/bin/cmake -H/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice -B/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make -f CMakeFiles/onvifdeviceplugin.dir/build.make CMakeFiles/onvifdeviceplugin.dir/depend
+make[2]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+cd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles/onvifdeviceplugin.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make -f CMakeFiles/onvifdeviceplugin.dir/build.make CMakeFiles/onvifdeviceplugin.dir/build
+make[2]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+[31m[1mLinking CXX shared library libonvifdeviceplugin.so
+[0m/usr/bin/cmake -E cmake_link_script CMakeFiles/onvifdeviceplugin.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fvisibility=default -g -DSWIFT_DEBUG -Wl,-z,relro -Wl,--no-undefined -Wl,--unresolved-symbols=ignore-in-shared-libs -shared -Wl,-soname,libonvifdeviceplugin.so.0.9 -o libonvifdeviceplugin.so.0.9.0 CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceClass.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceControl.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDevicePlugin.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDiscoverer.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDiscovererProxy.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifRtspContext.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifRtspClient.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifStream.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifClient.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifDiscovery.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifBasic.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifMedia.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifPTZ.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/soap/soapC.c.o CMakeFiles/onvifdeviceplugin.dir/onvif/soap/soapClient.c.o  -L/home/wjl/bqvision/clearvision/linux_x86_64/debug/lib64 -luuid -lcrypto -lDeviceLayer -lDlp_UUids -lDlp_Utils -lDlp_ShareRes -lswift-1.0.0-gcc -ltinyxpath -lpthread -Wl,-rpath,/home/wjl/bqvision/clearvision/linux_x86_64/debug/lib64 
+CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceClass.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceControl.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDiscoverer.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDiscovererProxy.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifClient.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifDiscovery.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifBasic.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifMedia.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+/usr/bin/ld: cannot find -lDeviceLayer
+/usr/bin/ld: cannot find -lDlp_UUids
+/usr/bin/ld: cannot find -lDlp_Utils
+/usr/bin/ld: cannot find -lDlp_ShareRes
+/usr/bin/ld: cannot find -lswift-1.0.0-gcc
+/usr/bin/ld: cannot find -ltinyxpath
+collect2: 错误：ld 返回 1
+make[2]: *** [libonvifdeviceplugin.so.0.9.0] 错误 1
+make[2]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make[1]: *** [CMakeFiles/onvifdeviceplugin.dir/all] 错误 2
+make[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make: *** [all] 错误 2
++ popd
++ command popd
++ popd
++ package
++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ command pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ pushd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug
++ make package
+/usr/bin/cmake -H/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice -B/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make -f CMakeFiles/onvifdeviceplugin.dir/build.make CMakeFiles/onvifdeviceplugin.dir/depend
+make[2]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+cd /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug /home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug/CMakeFiles/onvifdeviceplugin.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make -f CMakeFiles/onvifdeviceplugin.dir/build.make CMakeFiles/onvifdeviceplugin.dir/build
+make[2]: 进入目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+[31m[1mLinking CXX shared library libonvifdeviceplugin.so
+[0m/usr/bin/cmake -E cmake_link_script CMakeFiles/onvifdeviceplugin.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -D_GLIBCXX_USE_CXX11_ABI=0 -O2 -g -Wall -Wextra -Wno-unused-parameter -Wno-unsed-function -pipe -Wp,-D_FORTIFY_SOURCE=2 -fstack-protector --param=ssp-buffer-size=4 -fvisibility=default -g -DSWIFT_DEBUG -Wl,-z,relro -Wl,--no-undefined -Wl,--unresolved-symbols=ignore-in-shared-libs -shared -Wl,-soname,libonvifdeviceplugin.so.0.9 -o libonvifdeviceplugin.so.0.9.0 CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceClass.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceControl.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDevicePlugin.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDiscoverer.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifDiscovererProxy.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifRtspContext.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifRtspClient.cpp.o CMakeFiles/onvifdeviceplugin.dir/OnvifStream.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifClient.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifDiscovery.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifBasic.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifMedia.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifPTZ.cpp.o CMakeFiles/onvifdeviceplugin.dir/onvif/soap/soapC.c.o CMakeFiles/onvifdeviceplugin.dir/onvif/soap/soapClient.c.o  -L/home/wjl/bqvision/clearvision/linux_x86_64/debug/lib64 -luuid -lcrypto -lDeviceLayer -lDlp_UUids -lDlp_Utils -lDlp_ShareRes -lswift-1.0.0-gcc -ltinyxpath -lpthread -Wl,-rpath,/home/wjl/bqvision/clearvision/linux_x86_64/debug/lib64 
+CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceClass.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDeviceControl.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDiscoverer.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/OnvifDiscovererProxy.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifClient.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifDiscovery.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifBasic.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+CMakeFiles/onvifdeviceplugin.dir/onvif/OnvifMedia.cpp.o:(.data.rel.local+0x0): multiple definition of `namespaces'
+CMakeFiles/onvifdeviceplugin.dir/OnvifConnector.cpp.o:(.data.rel.local+0x0)：第一次在此定义
+/usr/bin/ld: cannot find -lDeviceLayer
+/usr/bin/ld: cannot find -lDlp_UUids
+/usr/bin/ld: cannot find -lDlp_Utils
+/usr/bin/ld: cannot find -lDlp_ShareRes
+/usr/bin/ld: cannot find -lswift-1.0.0-gcc
+/usr/bin/ld: cannot find -ltinyxpath
+collect2: 错误：ld 返回 1
+make[2]: *** [libonvifdeviceplugin.so.0.9.0] 错误 1
+make[2]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make[1]: *** [CMakeFiles/onvifdeviceplugin.dir/all] 错误 2
+make[1]: 离开目录“/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice/build/cmake/x86_64/debug”
+make: *** [all] 错误 2
+]0;wjl@localhost:~/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice]7;file://localhost/home/wjl/work/cv5/sdks/DeviceLayer/plugins/OnvifDevice[wjl@localhost OnvifDevice]$ exit
+
+Script done on Wed 10 May 2017 05:34:53 PM CST
